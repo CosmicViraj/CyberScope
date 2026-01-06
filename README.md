@@ -27,3 +27,15 @@ CyberScope is a Python Tkinter SOC-style tool for ethical security testing. It i
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/CyberScope.git
+
+2. Install required packages:
+```bash 
+pip install python-nmap reportlab matplotlib
+
+3.Make sure Nmap is installed on your system:
+```bash
+sudo apt install nmap   # Linux
+
+4.Run the application:
+```bash
+python main.py
